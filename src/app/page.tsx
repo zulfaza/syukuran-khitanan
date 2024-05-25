@@ -73,7 +73,7 @@ export default function Home({ params }: { params: { group: string, groupName: s
 
       </section>
       <section className="bg-white relative flex flex-col justify-center items-center bg-[url(/images/04.jpg)] bg-cover bg-no-repeat bg-[center_35%]" >
-        <div className="container flex justify-center items-center lg:min-h-[44rem] py-20 px-10">
+        <div className="container flex justify-center items-center lg:min-h-[44rem] 2xl:min-h-[calc(100vh-40rem)] py-20 px-10">
           <div className="bg-[#152648] opacity-50 w-full h-full absolute left-0 top-0 z-0"></div>
           <div className="z-10 relative" >
             <h3 className="text-4xl text-center text-[#D5AF6F] font-strawberrycupcakes mb-5">Save The Date</h3>
