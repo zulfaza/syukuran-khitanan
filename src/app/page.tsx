@@ -10,7 +10,7 @@ export default function Home({ params }: { params: { group: string, groupName: s
   return (
     <section className="bg-[#161d28]">
       <ModalTamu group={group} groupName={params.groupName} />
-      <header className="flex justify-center items-center w-full h-[calc(100vh-50px)] relative">
+      <header className="flex justify-center items-center w-full h-[469px] lg:h-[calc(100vh-50px)] relative">
         <div className="bg-accent opacity-60 bg-[url(/images/03.jpg)] md:bg-[0_70%] bg-cover bg-center w-full h-full absolute z-0" ></div>
         <div className="bg-[#15264872] opacity-50 w-full h-full absolute left-0 top-0 z-10"></div>
         <section className="container relative h-full z-20 flex justify-center items-center">
@@ -73,7 +73,7 @@ export default function Home({ params }: { params: { group: string, groupName: s
 
       </section>
       <section className="bg-white relative flex flex-col justify-center items-center bg-[url(/images/04.jpg)] bg-cover bg-no-repeat bg-[0_35%]" >
-        <div className="container flex justify-center items-center min-h-[44rem] py-20 px-10">
+        <div className="container flex justify-center items-center lg:min-h-[44rem] py-20 px-10">
           <div className="bg-[#152648] opacity-50 w-full h-full absolute left-0 top-0 z-0"></div>
           <div className="z-10 relative" >
             <h3 className="text-4xl text-center text-[#D5AF6F] font-strawberrycupcakes mb-5">Save The Date</h3>

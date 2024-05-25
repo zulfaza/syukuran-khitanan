@@ -42,7 +42,7 @@ const ModalTamu = ({ group, groupName }: Props) => {
                             leaveTo='opacity-0 scale-95'
                         >
                             <Dialog.Panel className='w-screen h-screen relative bg-white align-middle shadow-xl transition-all'>
-                                <div className="container bg-[url(/images/02.jpg)] bg-cover relative h-full p-10 flex justify-center items-center">
+                                <div className="container bg-[url(/images/02.jpg)] bg-cover bg-center relative h-full p-10 flex justify-center items-center">
                                     <div className='bg-gradient-to-t from-[rgba(64,80,107,0.50)] from-65% to-transparent absolute top-0 left-0 w-full h-full z-0'></div>
                                     <div className='z-10 relative'>
                                         <div className='mb-5 text-white'>
